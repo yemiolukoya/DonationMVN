@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.544572">
+<testcase classname="£20 single donation" name="verify user can donate £20 single donation" time="18.544572">
+<system-out><![CDATA[Given user navigate to https://alzheimers-donations.wpnc-uat.site/..........passed
+And user click donate twenty pound..........................................passed
+And user click donation amount continue tab.................................passed
+And user click credit/debit card payment type...............................passed
+And user enters "4000000000001000"..........................................passed
+And user fill my detail page................................................passed
+And user fill my address page...............................................passed
+And user click Is this address also your billing address checkbox...........passed
+When user click single donation confirm page complete donation tab..........passed
+Then Thank you for your donation page should be displayed...................passed
+]]></system-out>
+</testcase>
+</testsuite>
